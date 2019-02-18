@@ -30,7 +30,7 @@ Install R by following instructions below
 -   [OSx](https://cran.r-project.org/bin/macosx/)
 or by using brew:
 ```bash
-$ brew install r
+$ brew install r libgit2
 ```
 -   [Windows](https://cran.r-project.org/bin/windows/base/)
 
