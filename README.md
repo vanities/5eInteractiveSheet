@@ -24,13 +24,22 @@ You'll only be missing one minor feature: The ability to get your files directly
 
 If you are on linux/mac, sorry, no exe for you. You need to install R on your own. If you are on Windows and want to use direct import from google drive, you also need to follow the steps here.
 
-Instal R by following instructions below
+Install R by following instructions below
 
 -   [Linux](https://cran.r-project.org/bin/linux/)
 -   [OSx](https://cran.r-project.org/bin/macosx/)
+or by using brew:
+```bash
+$ brew install r
+```
 -   [Windows](https://cran.r-project.org/bin/windows/base/)
 
-After installing R open it. On the RGui, run the following commands
+After installing R open it. 
+```
+$ R
+```
+
+On the RGui, run the following commands
 
 ``` r
 install.packages('devtools')
