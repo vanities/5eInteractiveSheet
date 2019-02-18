@@ -30,8 +30,8 @@ Install R by following instructions below
 -   [OSx](https://cran.r-project.org/bin/macosx/)
 or by using brew:
 ```bash
-$ brew install r libgit2 automake autoconf libtool libxml2                                                            
-$ brew link libxml2  
+$ brew install r libxml2
+$ sudo installer -pkg /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg -target / 
 ```
 -   [Windows](https://cran.r-project.org/bin/windows/base/)
 
