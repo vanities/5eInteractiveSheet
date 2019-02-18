@@ -45,7 +45,8 @@ On the RGui, run the following commands
 ``` r
 install.packages('devtools')
 devtools::install_github('oganm/import5eChar')
-``
+```
+
 This will complete the installation. From now on you just need to do
 
 ``` r
