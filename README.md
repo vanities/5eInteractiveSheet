@@ -30,7 +30,8 @@ Install R by following instructions below
 -   [OSx](https://cran.r-project.org/bin/macosx/)
 or by using brew:
 ```bash
-$ brew install r libgit2
+$ brew install r libgit2 automake autoconf libtool libxml2                                                            
+$ brew link libxml2  
 ```
 -   [Windows](https://cran.r-project.org/bin/windows/base/)
 
@@ -44,8 +45,7 @@ On the RGui, run the following commands
 ``` r
 install.packages('devtools')
 devtools::install_github('oganm/import5eChar')
-```
-
+``
 This will complete the installation. From now on you just need to do
 
 ``` r
